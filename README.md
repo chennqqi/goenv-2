@@ -1,4 +1,4 @@
-Goenv
+Govenv
 =====
 
 Goenv lets you create an isolated environment where you install Go packages,
@@ -16,7 +16,7 @@ Usage
 
 Create or update an environment:
 
-	$ goenv <path to environment>
+	$ govenv <path to environment>
 
 Activate an environment:
 
@@ -37,7 +37,7 @@ Installation
 
 Issue:
 
-	$ go get github.com/smyrman/goenv
+	$ go get github.com/chennqqi/govenv
 
 If you have installed Go as root, and you have not set up a user level GOPATH
 and prepended "$GOPATH/bin" to your PATH environment variable, you might need
