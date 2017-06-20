@@ -34,7 +34,7 @@ var templateDir string
 
 func init() {
 	//Get template dir
-	pkgInfo, err := build.Import("github.com/smyrman/goenv", "", build.FindOnly)
+	pkgInfo, err := build.Import("github.com/chennqqi/govenv", "", build.FindOnly)
 	if err != nil {
 		panic("Could not locate the package's source code directory. " +
 		"I need the templates that are located there! The error was: " + err.Error())
