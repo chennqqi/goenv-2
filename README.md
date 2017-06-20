@@ -1,10 +1,10 @@
 Govenv
 =====
 
-Goenv lets you create an isolated environment where you install Go packages,
+Govenv lets you create an isolated environment where you install Go packages,
 binaries, or even C libraries.
 
-Goenv should work for most Unix variants as long as the terminal emulator is
+Govenv should work for most Unix variants as long as the terminal emulator is
 configured to use *Bash*. For MacOSX, everything except the C library
 support is expected to work. You are welcome to implement support for more
 shells and operating systems if you want to, e.g. for the
@@ -24,8 +24,8 @@ Activate an environment:
 
 The shell prompt will now be prefixed with the environment's folder name to
 indicate that the environment is active. You may have noted that the prefix has
-a certain color.  This color was chosen randomly when you ran the *goenv*
-command. To set a new random color, run the goenv command again.
+a certain color.  This color was chosen randomly when you ran the *govenv*
+command. To set a new random color, run the govenv command again.
 
 Deactivate an active environment:
 
@@ -49,6 +49,6 @@ Feel free to create a proper package for your distro, if you want to.
 Origin
 ------
 
-The goenv tool was originally developed for use in the robot Loke (eng:Loki),
+The govenv tool was originally developed for use in the robot Loke (eng:Loki),
 that participated in the Eurobot competition in France in 2012
 (http://eurobot-ntnu.no).
