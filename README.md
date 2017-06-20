@@ -52,3 +52,5 @@ Origin
 The govenv tool was originally developed for use in the robot Loke (eng:Loki),
 that participated in the Eurobot competition in France in 2012
 (http://eurobot-ntnu.no).
+
+<https://github.com/smyrman/goenv>
